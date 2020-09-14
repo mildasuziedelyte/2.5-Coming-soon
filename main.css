@@ -1,0 +1,278 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
+}
+
+body{}
+
+header{
+    display:inline-block;
+    background-image: url(./headerbackground.jpeg);
+    background-repeat: none;
+    width:100%;
+    height:44%;
+    text-align:center;
+}
+
+#header{
+    width:22%;
+    height:44%;
+    /* background-color: aqua; */
+    margin-left:calc((100% - 22%)/2);
+    padding-bottom: 20px;
+}
+
+#icon{
+    width:20px;
+    margin: 20px 0 10px 0;
+}
+
+h1{
+    text-transform: uppercase;
+    padding:15px;
+    font-size:30px;            
+}
+
+#pheader{
+    color:grey;
+    font-size:10px;
+    word-break:normal;
+}
+table{
+    margin: 10px auto 0 auto;
+}
+
+th{
+    color:white;
+    font-weight: bold;
+    font-size:25px;
+    text-align:center;
+    padding:0px 8px 0 8px;
+}
+
+td{
+    color:white;
+    font-weight: bold;
+    font-size:8px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+#keistas{
+
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid white;                    padding: 12px 20px;
+    width:80%;
+    margin:10px;
+    padding:0;
+    background-color: transparent;
+    font-size:10px;
+}
+
+#emailtop{
+    height:20px;
+}
+
+header ::placeholder {
+    css declarations;
+    text-align:left;
+    color:white;
+}
+
+#subscribenow{
+    width:30%;
+    background-color: #EA1E63;
+    font-size:10px;
+    color:white;
+    padding:5px 10px 5px 10px;
+    border:none;
+}
+
+main{
+    display:inline-block;
+    height:36%;
+    width:55%;
+    /* background-color: coral ; */
+    margin-left: calc((100% - 55%)/2);
+    margin-top:40px;
+}
+
+#progressbar{
+    display:inline-block;
+    float:left;
+    width: 47%;
+    /* background-color: pink; */
+    margin: 7px;
+    padding:0;
+}
+
+h2{
+    text-transform:uppercase;
+    font-size:20px;
+    text-align:left;
+    /* padding:7px; */
+    margin-bottom: 7px;
+}
+
+.pmain{
+    color:grey;
+    font-size:9px;
+    /* padding:7px; */
+    word-break: normal;
+    margin-bottom: 15px;
+    word-break:normal;
+}
+
+.link{
+    color:#EA1E63;
+    text-decoration: none;
+    word-break:normal;
+}
+
+h6{
+    color:grey;
+    font-size:9px;
+    margin-bottom: 9px;
+    font-weight: normal;
+}
+
+.progress{
+    width: 100%;
+    height: 4px;
+    /* margin-left: calc((100% - 94%)/2); */
+    color: grey;
+}
+
+span{
+    float:right;
+}
+
+#question{
+    display:inline-block;
+    float:right;
+    width: 40%;
+    /* background-color: yellowgreen; */
+    margin:7px;
+    /* margin-right: 4%; */
+}
+
+.top{
+    width:46%;
+    display:inline-block;
+    height: 20px;
+    border-bottom: 1px solid grey;
+    margin:6px 0px 13px 0px;
+}
+
+#name{
+    float:left;
+}
+
+#email{
+    float:right;
+}
+
+#bottom{
+    height: 40px;
+    border:none;
+    border-bottom: 1px solid grey;
+    padding: 0;
+    width:100%;
+    margin:10px 0 0 0;
+    background-color: transparent;
+    font-size:10px;
+}
+
+textarea{
+    resize:none;
+}
+
+#send{
+    float:right;
+    width: 15%;
+    background-color:#EA1E63;
+    padding: 5px;
+    text-transform:capitalize;
+    border:none;
+    color:white;
+    margin: 10px 7px 20px 0;
+}
+
+footer{
+    background-color:#03A9F3;
+    height: 20%;
+    text-align: center;
+}
+
+#arrowtopsection{
+    background: linear-gradient(to bottom, white 0%,white 50%,#000000 50%,#03A9F3 50%,#03A9F3 100%);
+}
+
+#arrowtop{
+    display:block;
+    margin-left:76%;
+}
+
+.social{
+    display:inline-block;
+}
+
+.social>a{
+    color:white;
+    text-decoration: none;
+    padding: 0 15px 15px 15px;
+    font-size: 10px;
+}
+
+#horline{
+    width:45%;
+    margin-left: 27.5%;
+    border: 0;
+    height: 1px;
+    background: white;
+    opacity: 0.2;
+}
+
+#logo{
+    margin:20px;
+}
+
+.footer{
+    font-size: 10px;
+    color:white;
+    opacity:0.6;
+    padding-bottom: 40px;
+}
+
+.footer>p{
+    display:inline-block;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+#lastp{
+    display:block;
+    margin-top: 10px;
+    text-transform: none;
+}
+
+.footlink{
+    text-decoration: none;
+    color:white;
+    opacity:1;
+}
+
+#borders{
+    border-left:1px solid white;
+    border-right: 1px solid white;
+    padding: 0 10px;
+}
+
